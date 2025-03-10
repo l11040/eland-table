@@ -1,0 +1,57 @@
+{
+  "name": "eland-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/eland-table.cjs.js",
+  "module": "dist/eland-table.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/eland-table.es.js",
+      "require": "./dist/eland-table.cjs.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/eland-table.css": "./dist/eland-table.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.20.6",
+    "@tanstack/react-virtual": "^3.13.0",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "typescript": "^5",
+    "vite": "^6.2.1",
+    "vite-plugin-dts": "^4.5.3",
+    "vite-plugin-svgr": "^4.3.0"
+  },
+  "homepage": "https://github.com/l11040/eland-table#readme",
+  "bugs": {
+    "url": "https://github.com/l11040/eland-table/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l11040/eland-table.git"
+  },
+  "license": "ISC",
+  "author": "l11040",
+  "keywords": [
+    "table"
+  ]
+}
