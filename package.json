@@ -1,6 +1,6 @@
 {
   "name": "@l11040/eland-table",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/eland-table.cjs.js",
   "module": "dist/eland-table.es.js",
