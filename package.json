@@ -64,5 +64,8 @@
   "author": "l11040",
   "keywords": [
     "table"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
