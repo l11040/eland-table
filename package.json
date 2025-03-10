@@ -11,9 +11,7 @@
       "import": "./dist/eland-table.es.js",
       "require": "./dist/eland-table.cjs.js"
     },
-    "./style": {
-      "default": "./dist/eland-table.css"
-    }
+    "./dist/eland-table.css": "./dist/eland-table.css"
   },
   "scripts": {
     "dev": "vite",
